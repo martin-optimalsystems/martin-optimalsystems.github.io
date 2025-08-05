@@ -7,7 +7,8 @@ import * as util from "./Utils.js";
 
 
 var currentUsername = "";
-var webClientOrigin = window.location.origin
+//var webClientOrigin = window.location.origin
+var webClientOrigin = "http://win-8hu4bts8u0f"
 
 // we don't need this, because we can always get window.location.origin at the start of execution
 // if (util.isElectronClient()) {
