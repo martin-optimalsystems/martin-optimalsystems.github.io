@@ -1,0 +1,16 @@
+{
+	"documentType": "Object Type",
+	"additionalFields": "Index Data",
+	"selectDocumentPrompt": "Please select a document type.",
+	"clearDropzone": "Clear Dropzone",
+	"dropzoneMessage": "Drop files here to upload",
+	"notAvailableMessage": "Not available.",
+	"selectOptionPrompt": "select an option",
+	"noValuesMessage": "No values configured.",
+	"errorPrompt": "There were some errors while uploading files.",
+	"indivError": "Error message could not be read, see log for details.",
+	"requiredFieldsEmpty": "Please fill in the required fields.",
+	"selectObjectPrompt": "Please select an object from the result list.",
+	"selectDocuments": "Select Documents",
+	"startUpload": "Start Upload"
+}

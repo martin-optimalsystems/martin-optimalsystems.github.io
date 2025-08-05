@@ -1,0 +1,16 @@
+{
+	"documentType": "Objekttyp",
+	"additionalFields": "Indexdaten",
+	"selectDocumentPrompt": "Bitte wählen Sie einen Dokumenttyp!",
+	"clearDropzone": "Dropzone leeren",
+	"dropzoneMessage": "Legen Sie Dateien hier ab",
+	"notAvailableMessage": "Nicht verfügbar.",
+	"selectOptionPrompt": "Wählen Sie eine Option",
+	"noValuesMessage": "Keine Indexdaten konfiguriert.",
+	"errorPrompt": "Beim Hochladen der Dateien traten Fehler auf.",
+	"indivError": "Die Fehlermeldung konnte nicht ausgelesen werden.",
+	"requiredFieldsEmpty": "Bitte füllen Sie die erforderlichen Felder aus!",
+	"selectObjectPrompt": "Bitte wählen sie ein Objekt aus der Trefferliste aus!",
+	"selectDocuments": "Dokumente auswählen",
+	"startUpload": "Upload starten"
+}

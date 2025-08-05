@@ -1,0 +1,42 @@
+{
+    "OSTPL_BP_PROJEKT": {
+		"ALLOWED_TYPES" : [ ],
+		"OSTPL_BP_REGISTER": {
+			"ALLOWED_TYPES" : ["OSTPL_BP_KALKDOC", "OSTPL_BP_DOC"]
+		},
+		"OSTPL_BP_KALKDOC": {
+			"OSTPL_DOCUMENTTYPE": ["Schriftverkehr", "Kalkulation", "Foto", "Abgabe", "Ausschreibung", "Pläne", "Gutachten", "Statik", "Bauzeitplan", "SIGE-Bauphysik", "Sonstiges", "Budget", "Sub-Angebot"],
+			"OSTPL_DOCDATE": "%currentdate%",
+			"OSTPL_EDITOR": "%currentuser%",
+			"OSTPL_BP_GROUPBY": "",
+			"OSTPL_BP_TITEL": "%filename%",
+			"OSTPL_BP_DESCRIPTION": "",
+			"filename": "%filename%"
+		},
+		"OSTPL_BP_DOC": {
+			"OSTPL_DOCUMENTTYPE": ["Protokoll", "Bericht", "Unterlagen", "Präsentation", "Brief", "Fax", "Konzept", "Bild", "Dokumentation", "technische Information", "Produktinformation", "Zertifikate", "Datenträger"],
+			"OSTPL_EDITOR": "%currentuser%",
+			"OSTPL_DOCDATE": "%currentdate%",
+			"OSTPL_BP_GROUPBY": ["A", "B", "C"],
+			"OSTPL_BP_TITEL": "%filename%",
+			"OSTPL_BP_DESCRIPTION": "",
+			"OSTPL_BP_MAINTYPE": "",
+			"OSTPL_BP_SUBTYPE": ""
+		}
+	},
+	"OSPL_BASIC": {
+		"ALLOWED_TYPES" : ["OSTPL_Dokument"],
+		"OSTPL_REGISTER": {
+			"ALLOWED_TYPES" : ["OSTPL_Dokument"]
+		},
+		"OSTPL_Dokument": {
+			"OSTPL_DOCUMENTTYPE": ["Protokoll","Bericht","Unterlagen"],
+			"OSTPL_DOCDATE": "%currentdate%",
+			"OSTPL_EDITOR": "%currentuser%",
+			"OSTPL_GP_GROUPBY": "",
+			"OSTPL_GP_TITEL": "%filename%",
+			"OSTPL_GP_DESCRIPTION": ""
+		}
+	},
+	"WebclientOrigin": "http://win-8hu4bts8u0f"
+}

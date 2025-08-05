@@ -1,0 +1,38 @@
+<html lang="de">
+<head>
+	<script src="./external/jquery-1.9.1.min.js"></script>
+	<script src="./external/dropzone.min.js"></script>
+	<script type="module" src="./javascript/MultiUpload.js"></script>
+	<script src="./external/select2.min.js"></script>
+	
+	<link rel="stylesheet" href="./external/font-awesome/css/all.css"></link>
+	<link rel="stylesheet" href="./external/select2.min.css" /> 
+	<link rel="stylesheet" href="./external/dropzone.min.css" type="text/css" />
+	<link rel="stylesheet" type="text/css" href="./MultiUpload.css" />
+</head>
+<body>
+	<div id="loading"></div>
+	<div id="selectPrompt"></div>
+	<div id="fullDashlet">
+		<div id="description_header">
+			<!-- <h1>Target container:</h1>
+			<div id="targetcontainer_container"></div> -->
+			<h1 id="doctype_header"></h1>
+			<div id="typelist_container"></div>
+			<div class="upload_details" id="indexdata_zone">
+				<button type="button" id="collapsible_button" class="collapsible"></button>
+				<div class="content" id="collapsibleContent"></div>
+			</div>
+		</div>
+		<div class="upload_details" id="full_dropzone">
+			<button type="button" id="selectButton" class="button" role="button"></button>
+			<button type="button" id="startButton" class="button" role="button"></button>
+			<button type="button" id="clearButton" class="button" role="button"></button>
+			<div id="fileDropzone" class="dropzone">
+				<div class="dz-message" id="dz_message" data-dz-message></div>
+			</div>
+		</div>
+	</div>
+</body>
+
+</html>
