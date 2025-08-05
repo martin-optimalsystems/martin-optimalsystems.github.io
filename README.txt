@@ -5,7 +5,7 @@ Also check the readme MultiUpload/config/readme.txt
 {
     "objectTypes": "*",
     "platforms": ["web","desktop_app", "mobile", "mobile_app"],
-    "uri": "https://enaio.osvoe.at/resources/apps/osweb/public/dashlets/MultiUpload/Multiupload.html?sessionguid={sessionguid}",
+    "uri": "https://martin-optimalsystems.github.io?sessionguid={sessionguid}",
     "title_EN": "enaio® webclient - Multi Upload Dashlet",
     "title_DE": "enaio® webclient - Multi Upload Dashlet",
     "title_FR": "enaio® webclient - Multi Upload Dashlet",
