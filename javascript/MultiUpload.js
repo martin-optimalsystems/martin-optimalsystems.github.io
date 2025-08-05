@@ -7,8 +7,7 @@ import * as util from "./Utils.js";
 
 
 var currentUsername = "";
-//var webClientOrigin = window.location.origin
-var webClientOrigin = "http://win-8hu4bts8u0f"
+var webClientOrigin = window.location.origin
 
 // we don't need this, because we can always get window.location.origin at the start of execution
 // if (util.isElectronClient()) {
@@ -190,8 +189,8 @@ async function updateDashlet() {
 
 function setDashletEventListener() {
 	//check if webClientOrigin works like that
-	lib.registerOnInitCallback(() => initDashlet(), webClientOrigin);
-	lib.registerOnUpdateCallback(() => updateDashlet(), webClientOrigin);
+	lib.registerOnInitCallback(() => initDashlet(), "*");
+	lib.registerOnUpdateCallback(() => updateDashlet(), "*");
 	/* window.addEventListener("message", e => {
 		if (e.data.type == 'onInit') {
 			console.log("onInit in MultiUpload.html");
